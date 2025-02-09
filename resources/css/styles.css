@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--Soft-Red: hsl(7, 99%, 70%);
+	--Yellow: hsl(51, 100%, 49%);
+	--Dark-Desaturated-Cyan: hsl(167, 40%, 24%); /* (graphic design text) */
+	--Dark-Blue: hsl(198, 62%, 26%); /* (photography text) */
+	--Dark-Moderate-Cyan: hsl(168, 34%, 41%); /* (footer) */
+	--Very-Dark-Desaturated-Blue: hsl(212, 27%, 19%);
+	--Very-Dark-Grayish-Blue: hsl(213, 9%, 39%);
+	--Dark-Grayish-Blue: hsl(232, 10%, 55%);
+	--Grayish-Blue: hsl(210, 4%, 67%);
+	--White: hsl(0, 0%, 100%);
+}
+body {
+}
+main {
+}
+header {
+}
+.navbar-container {
+}
+.logo-container {
+}
+.navbar-logo-image {
+}
+.navbar-links-container {
+}
+.contact-button {
+}
+.hero-section {
+}
+.hero-text {
+}
+.grid-section {
+}
+.grid-item {
+}
+.grid-heading-text-1 {
+}
+.grid-description-text {
+}
+.learn-more-link {
+}
+.grid-heading-text-2 {
+}
+.grid-description-text-2 {
+}
+.testimonials-section {
+}
+.testimonials-heading-text {
+}
+.testinonials-container {
+}
+.testimonial-item {
+}
+.testimonial-image {
+}
+.testimonial-text {
+}
+.testimonial-name {
+}
+.testimonial-position {
+}
+.images-section {
+}
+.image-container {
+}
+.image-container-1 {
+}
+.image-container-2 {
+}
+.image-container-3 {
+}
+.image-container-4 {
+}
+footer {
+}
+.footer-logo-image {
+}
+.footer-links-container {
+}
+.footer-link {
+}
+.social-icons {
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
