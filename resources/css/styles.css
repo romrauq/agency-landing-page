@@ -6,6 +6,8 @@
 :root {
 	--Soft-Red: hsl(7, 99%, 70%);
 	--Yellow: hsl(51, 100%, 49%);
+	--Bright-Blue: hsl(200, 100%, 62%);
+	--Bright-Blue-Light: hsl(200, 100%, 72%);
 	--Dark-Desaturated-Cyan: hsl(167, 40%, 24%); /* (graphic design text) */
 	--Dark-Blue: hsl(198, 62%, 26%); /* (photography text) */
 	--Dark-Moderate-Cyan: hsl(168, 34%, 41%); /* (footer) */
@@ -15,21 +17,44 @@
 	--Grayish-Blue: hsl(210, 4%, 67%);
 	--White: hsl(0, 0%, 100%);
 }
-body {
-}
-main {
-}
+/* body {
+} */
 header {
+	background-color: var(--Bright-Blue);
 }
 .navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 2%;
+	background-color: var(--Bright-Blue);
 }
-.logo-container {
-}
-.navbar-logo-image {
-}
+/* .logo-container {
+} */
+/* .navbar-logo-image {
+} */
 .navbar-links-container {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+.navbar-links-container a {
+	color: var(--White);
+	text-decoration: none;
 }
 .contact-button {
+	color: var(--Dark-Blue);
+	padding: 10px 25px;
+	background-color: var(--White);
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.contact-button:hover {
+	color: var(--White);
+	background-color: var(--Bright-Blue-Light);
+}
+main {
 }
 .hero-section {
 }
