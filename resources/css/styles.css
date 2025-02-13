@@ -145,12 +145,14 @@ main {
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: hsl(168, 45%, 69%);
 }
 .bottom-grid-item-2 {
 	background-image: url("../images/desktop/image-photography.jpg");
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: hsl(197, 99%, 68%);
 }
 /* .bottom-grid-item {
 } */
