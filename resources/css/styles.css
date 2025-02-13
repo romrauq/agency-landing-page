@@ -109,14 +109,14 @@ main {
 }
 .grid-item-2 {
 	background-image: url("../images/desktop/image-transform.jpg");
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: var(--Yellow);
 }
 .grid-item-3 {
 	background-image: url("../images/desktop/image-stand-out.jpg");
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: var(--Soft-Red);
