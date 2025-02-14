@@ -68,6 +68,12 @@ header {
 	color: var(--White);
 	background-color: var(--Bright-Blue-Light);
 }
+.burger-icon-button {
+	background-color: var(--Bright-Blue);
+	border: none;
+	outline: none;
+	display: none;
+}
 main {
 	display: flex;
 	flex-direction: column;
