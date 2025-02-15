@@ -291,11 +291,30 @@ footer {
 	.navbar-logo-image {
 		width: 140px;
 	}
-	.navbar-links-container {
-		display: none;
-	}
 	.burger-icon-button {
 		display: block;
+	}
+	.navbar-links-container {
+		position: absolute;
+		top: 0;
+		right: 5%;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding: 40px 0;
+		background-color: var(--White);
+		margin: 100px 0 0 0;
+		display: none;
+	}
+	.navbar-links-container a {
+		font-weight: 600;
+		color: var(--Dark-Grayish-Blue);
+	}
+	.contact-button {
+		font-weight: 800;
+		padding: 15px 30px;
+		border-radius: 30px;
+		background-color: var(--Yellow);
 	}
 	.hero-section {
 		justify-content: center;
