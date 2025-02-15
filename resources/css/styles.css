@@ -407,61 +407,35 @@ footer {
 		margin: 0;
 	}
 	.testimonials-heading-text {
-		/* color: var(--Grayish-Blue); */
-		/* font-family: Fraunces; */
-		/* text-transform: uppercase; */
+		font-size: 18px;
+		letter-spacing: 2px;
 	}
 	.testimonials-container {
-		/* display: flex; */
 		flex-direction: column;
-		/* justify-content: space-between; */
 		align-items: center;
 		gap: 80px;
 	}
 	.testimonial-item {
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* align-items: center; */
-		/* text-align: center; */
 		height: fit-content;
 		width: 90%;
-		/* background-color: red; */
 	}
-	.testimonial-image {
-		/* width: 64px; */
-		/* border-radius: 50%; */
-		/* margin: 0 0 20px 0; */
-	}
+	/* .testimonial-image {
+	} */
 	.testimonial-text {
-		/* font-family: Barlow Regular; */
-		/* font-weight: 600; */
-		/* color: var(--Very-Dark-Grayish-Blue); */
 		margin: 0 0 20px 0;
 	}
-	.details-container {
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* gap: 4px; */
-		/* margin: auto 0 0 0; */
-	}
-	.testimonial-name {
-		/* color: var(--Very-Dark-Desaturated-Blue); */
-		/* font-family: Fraunces; */
-		/* font-weight: 800; */
-	}
-	.testimonial-position {
-		/* color: var(--Grayish-Blue); */
-		/* font-family: Barlow Regular; */
-		/* font-size: 14px; */
-		/* font-weight: 600; */
-	}
+	/* .details-container {
+	} */
+	/* .testimonial-name {
+	} */
+	/* .testimonial-position {
+	} */
 	.images-section {
 		display: grid;
 		grid-template-columns: repeat(2, 50vw);
 	}
 	.image-container {
 		height: 50vw;
-		/* width: 720px; */
 	}
 	.image-container-1 {
 		background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
