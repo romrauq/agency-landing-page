@@ -74,6 +74,7 @@ header {
 	outline: none;
 	display: none;
 }
+/* .burger-icon-image{} */
 main {
 	display: flex;
 	flex-direction: column;
@@ -163,9 +164,6 @@ main {
 /* .bottom-grid-item {
 } */
 .bottom-grid-item .text-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	text-align: center;
 	margin: 160px 0 0 0;
 }
@@ -295,4 +293,186 @@ footer {
 
 .attribution a {
 	color: var(--Dark-Desaturated-Cyan);
+}
+
+@media (max-width: 475px) {
+	.navbar-container {
+		padding: 40px 7%;
+	}
+	.navbar-logo-image {
+		width: 180px;
+	}
+	.navbar-links-container {
+		display: none;
+	}
+	.burger-icon-button {
+		display: block;
+	}
+	.hero-section {
+		justify-content: center;
+		height: 60vh;
+		background-image: url("../images/mobile/image-header.jpg");
+		background-size: cover;
+		background-position: bottom;
+	}
+	.hero-text {
+		font-size: 38px;
+		text-align: center;
+		margin: 50px auto 0;
+		width: 300px;
+		height: fit-content;
+	}
+	.grid-section {
+		display: flex;
+		flex-direction: column;
+	}
+	.grid-item {
+		width: 100%;
+		height: fit-content;
+	}
+	.grid-item-1 {
+		order: 2;
+	}
+	.grid-item-2 {
+		height: 320px;
+		background-image: url("../images/mobile/image-transform.jpg");
+		background-size: cover;
+		order: -1;
+	}
+	.grid-item-3 {
+		height: 320px;
+		background-image: url("../images/mobile/image-stand-out.jpg");
+		background-size: cover;
+		order: 3;
+	}
+	.grid-item-4 {
+		order: 4;
+	}
+	.text-container {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		width: 85%;
+		padding: 80px 0;
+	}
+	.grid-heading-text-1 {
+		font-size: 28px;
+	}
+	.grid-description-text {
+		font-family: Barlow Regular;
+		line-height: 28px;
+	}
+	.learn-more-link {
+		font-family: Fraunces;
+		text-decoration: none;
+		color: black;
+	}
+	.bottom-grid-item-1 {
+		height: 70vh;
+		background-image: url("../images/mobile/image-graphic-design.jpg");
+		background-size: cover;
+		order: 5;
+	}
+	.bottom-grid-item-2 {
+		height: 70vh;
+		background-image: url("../images/mobile/image-photography.jpg");
+		background-size: cover;
+		order: 6;
+	}
+	.bottom-grid-item .text-container {
+		gap: 40px;
+		padding: 40px 0;
+		margin: auto 0 0 0;
+	}
+	.grid-heading-text-2 {
+		font-size: 28px;
+	}
+	.grid-description-text-2 {
+		line-height: 28px;
+	}
+	.testimonials-section {
+		margin: 0;
+	}
+	.testimonials-heading-text {
+		/* color: var(--Grayish-Blue); */
+		/* font-family: Fraunces; */
+		/* text-transform: uppercase; */
+	}
+	.testimonials-container {
+		/* display: flex; */
+		flex-direction: column;
+		/* justify-content: space-between; */
+		align-items: center;
+		gap: 80px;
+	}
+	.testimonial-item {
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* align-items: center; */
+		/* text-align: center; */
+		height: fit-content;
+		width: 90%;
+		/* background-color: red; */
+	}
+	.testimonial-image {
+		/* width: 64px; */
+		/* border-radius: 50%; */
+		/* margin: 0 0 20px 0; */
+	}
+	.testimonial-text {
+		/* font-family: Barlow Regular; */
+		/* font-weight: 600; */
+		/* color: var(--Very-Dark-Grayish-Blue); */
+		margin: 0 0 20px 0;
+	}
+	.details-container {
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* gap: 4px; */
+		/* margin: auto 0 0 0; */
+	}
+	.testimonial-name {
+		/* color: var(--Very-Dark-Desaturated-Blue); */
+		/* font-family: Fraunces; */
+		/* font-weight: 800; */
+	}
+	.testimonial-position {
+		/* color: var(--Grayish-Blue); */
+		/* font-family: Barlow Regular; */
+		/* font-size: 14px; */
+		/* font-weight: 600; */
+	}
+	.images-section {
+		display: grid;
+		grid-template-columns: repeat(2, 50vw);
+	}
+	.image-container {
+		height: 50vw;
+		/* width: 720px; */
+	}
+	.image-container-1 {
+		background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.image-container-2 {
+		background-image: url("../images/mobile/image-gallery-orange.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.image-container-3 {
+		background-image: url("../images/mobile/image-gallery-cone.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.image-container-4 {
+		background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
