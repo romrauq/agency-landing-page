@@ -288,9 +288,7 @@ footer {
 	color: var(--White);
 	font-size: 11px;
 	text-align: center;
-	/* background-color: hsl(167, 44%, 70%); */
 }
-
 .attribution a {
 	color: var(--Dark-Desaturated-Cyan);
 }
@@ -488,5 +486,8 @@ footer {
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+	}
+	.attribution {
+		display: none;
 	}
 }
