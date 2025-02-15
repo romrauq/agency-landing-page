@@ -232,30 +232,21 @@ main {
 .image-container {
 	height: 500px;
 	width: 720px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .image-container-1 {
 	background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 .image-container-2 {
 	background-image: url("../images/desktop/image-gallery-orange.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 .image-container-3 {
 	background-image: url("../images/desktop/image-gallery-cone.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 .image-container-4 {
 	background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 footer {
 	display: flex;
