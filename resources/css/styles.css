@@ -288,7 +288,7 @@ footer {
 	color: var(--White);
 	font-size: 11px;
 	text-align: center;
-	background-color: hsl(167, 44%, 70%);
+	/* background-color: hsl(167, 44%, 70%); */
 }
 
 .attribution a {
@@ -368,28 +368,42 @@ footer {
 		text-decoration: none;
 		color: black;
 	}
-	.bottom-grid-item-1 {
-		height: 70vh;
-		background-image: url("../images/mobile/image-graphic-design.jpg");
+	.bottom-grid-item {
+		height: 80vh;
 		background-size: cover;
+	}
+	.bottom-grid-item-1 {
+		background-image: url("../images/mobile/image-graphic-design.jpg");
 		order: 5;
 	}
 	.bottom-grid-item-2 {
-		height: 70vh;
 		background-image: url("../images/mobile/image-photography.jpg");
-		background-size: cover;
 		order: 6;
 	}
 	.bottom-grid-item .text-container {
-		gap: 40px;
-		padding: 40px 0;
+		gap: 30px;
+		padding: 0 0 70px 0;
 		margin: auto 0 0 0;
 	}
 	.grid-heading-text-2 {
+		color: var(--Very-Dark-Desaturated-Blue);
 		font-size: 28px;
+	}
+	.bottom-grid-item-1 .text-container .grid-heading-text-2 {
+		color: #225449;
+	}
+	.bottom-grid-item-2 .text-container .grid-heading-text-2 {
+		color: #21536c;
 	}
 	.grid-description-text-2 {
 		line-height: 28px;
+		font-weight: 600;
+	}
+	.bottom-grid-item-1 .text-container .grid-description-text-2 {
+		color: #225c4e;
+	}
+	.bottom-grid-item-2 .text-container .grid-description-text-2 {
+		color: #0f4865;
 	}
 	.testimonials-section {
 		margin: 0;
