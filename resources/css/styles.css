@@ -318,6 +318,7 @@ footer {
 	.grid-item {
 		width: 100%;
 		height: fit-content;
+		background-size: cover;
 	}
 	.grid-item-1 {
 		order: 2;
@@ -325,13 +326,11 @@ footer {
 	.grid-item-2 {
 		height: 320px;
 		background-image: url("../images/mobile/image-transform.jpg");
-		background-size: cover;
 		order: -1;
 	}
 	.grid-item-3 {
 		height: 320px;
 		background-image: url("../images/mobile/image-stand-out.jpg");
-		background-size: cover;
 		order: 3;
 	}
 	.grid-item-4 {
